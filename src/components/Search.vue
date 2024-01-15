@@ -1,5 +1,5 @@
 <template>
-<input placeholder="" type="text">
+<input placeholder="type something to search for awesome gifs" type="text">
 </template>
 
 <script lang="ts">
