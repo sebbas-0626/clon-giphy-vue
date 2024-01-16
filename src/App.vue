@@ -1,12 +1,11 @@
-<script setup lang="ts">
-</script>
-
+<!-- App.vue -->
 <template>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <div id="app">
+    <Home />
+  </div>
 </template>
 
-<style scoped>
+<script setup lang="ts">
+import Home from '@/views/Home.vue'; // Ajusta la ruta según tu estructura
+</script>
 
-</style>
